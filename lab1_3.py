@@ -1,0 +1,10 @@
+s = ' Hello WorlD! '
+print('Идентификатор s:', id(s))
+s_strip = s.strip()
+s_lower = s.lower()
+s_replace = s.replace('D', 'd')
+print(s, s_strip, s_lower, s_replace, sep='\n')
+print('Идентификатор s:', id(s))
+print('Идентификатор s_strip:', id(s_strip))
+print('Идентификатор s_lower:', id(s_lower))
+print('Идентификатор s_replace:', id(s_replace))
