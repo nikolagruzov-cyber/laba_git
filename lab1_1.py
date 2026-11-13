@@ -5,14 +5,22 @@ b1=int(input())
 a2=’20’
 b2=str(20)
 
-print(a==b)
-print(a1==b1)
-print(a2==b2)
+def f(n, m):
+    s = (n+m) // 2
+    if s >= 20:
+        print("Среднее арифметическое больше 20")
+    else:
+        print("Среднее арифметическое меньше 20")
+
+print(a!=b)
+print(a1!=b1)
+print(a2!=b2)
 
 print(a is b)
 print(a1 is b1)
 print(a2 is b2)
 
+print(f(a, b))
 print(id(a), id(b), id(a1), id(b1), id(a2), id(b2))
 
 n=None
